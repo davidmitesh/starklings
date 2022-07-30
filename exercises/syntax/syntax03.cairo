@@ -2,12 +2,10 @@
 
 # Functions can take arguments and return results
 
-# I AM NOT DONE
-
 # TODO: make the test pass!
 
-func takes_two_arguments_and_returns_one() -> ():
-    return (a + b)  # Do not change
+func takes_two_arguments_and_returns_one(a : felt, b : felt) -> (res : felt):
+    return (res=a + b)  # Do not change
 end
 
 # You could be tempted to change the test to make it pass, but don't?

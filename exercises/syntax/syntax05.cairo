@@ -2,7 +2,10 @@
 
 # As with many other languages, you can describe object structures with the struct keyword.
 
-# I AM NOT DONE
+struct Currency:
+    member name : felt
+    member value : felt
+end
 
 # TODO: declare the Currency struct to make the test pass
 
